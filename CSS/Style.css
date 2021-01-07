@@ -1,0 +1,432 @@
+/*International START*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #ccc;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    background-color: #262626;
+}
+/*International STOP*/
+
+/*top START*/
+#particles-js{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 40%;
+    padding-left: 23%;
+    position: absolute;
+    font-size: 40px;
+}
+
+
+.scroll-down{
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.scroll-down::before,
+.scroll-down::after{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::after{
+    top: 30%;
+    animation-delay: .3s;
+}
+@keyframes scroll-down{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        top: 90%;
+    }
+}
+.scroll-down:hover{
+    background-color: white;
+}
+/*top STOP*/
+
+/*Om mig START*/
+#Om-mig{
+    padding: 3rem;
+    background-color: #262626;
+    display: block;
+}
+
+#Om-mig h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.billede img{
+    border-radius: 50%;
+    width: 400px;
+}
+
+.billede{
+    flex: 1;
+}
+
+.Ekstra.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.tekst{
+    flex: 1;
+    float: left;
+}
+
+.Portfolio-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    
+}
+/*Om mig STOP*/
+
+/*Mine projekter START*/
+.Mine-Projekter{
+    padding: 3rem;
+    padding-left: 6rem;
+    padding-right: 2rem;
+}
+
+.Mine-Projekter h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.projekter{
+    height: 550px
+}
+
+.csharp{
+    height: 250px;
+}
+
+.web{
+    height: 400px;
+}
+
+ul{
+    overflow: hidden;
+    text-align: center;
+    padding: 3rem;
+}
+li{
+    display: inline-block;
+    padding: 0;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    margin: 0 3rem;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #03a9f4;
+    color: rgb(231, 229, 229);
+    cursor: pointer;
+}
+
+.box img:hover{
+    background: rgb(184, 91, 91)!important;
+    color: #000!important;
+    transition: 0.5s;
+}
+
+.box{
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(150px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
+.content p{
+    color: rgb(255, 255, 255);
+}
+
+.box .details{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    bottom: -1px;
+    right: -1px;
+    background: rgba(0,0,0,0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.lande .Country .box:hover .details{
+    transform: scaleY(1);
+}
+.box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    color: #fff;
+}
+
+
+/*Mine projekter STOP*/
+
+/*Mine færdigheder START*/
+.Mine-færdigheder{
+    padding: 3rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    width: auto;
+}
+
+.Mine-færdigheder h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .skill-bar{
+    height: 20px;
+    background: #cacaca;
+    border-radius: 8px;
+  }
+  
+  .skill-per{
+    height: 20px;
+    background-color: #0fbcf9;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+/*Mine færdigheder STOP*/
+
+/*CV START*/
+
+/*CV STOP*/
+
+/*Sociale media START*/
+.Sociale-media{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#Social-media{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#Social-media #social-media{
+    width: 70px;
+    height: 70px;
+    border-left-width: 1vh;
+    text-align: center;
+    background: white;
+    border-radius: 100%;
+    margin: 0px 10px;
+    font-size: -50px;
+    line-height: 100px;
+    display: inline-block;
+}
+
+#Social-media #social-mediaa{
+    display: inline-block;
+    padding: 1rem 3rem;
+}
+
+.fa-github img{
+    width: 80px;
+    text-align: center;
+    margin-top: -5px;
+    margin-left: -4px;
+}
+
+.fa-linkedin img{
+    width: 80px;
+    text-align: center;
+}
+
+#social-mediaa{
+    background-color:  #262626;;
+}
+/*Sociale media STOP*/
+
+/*LOAD start*/
+.loading{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(50deg, red, black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.obj{
+    position: absolute;
+    top: 18rem;
+    left: 42rem;
+    transform: translateX(-50%,-50%);
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff000;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #fff000;
+    /*box-shadow: 0 0 20px rgba(0, 0, 0, .5);*/
+}
+
+.obj:before{
+    content: '';
+    position: absolute;
+    top: calc(40% - 20px);
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    border: 3px solid transparent;
+    border-top: 3px solid #dbdbdb;
+    border-right: 3px solid #dbdbdb;
+    border-radius: 50%;
+    animation: animateCircle 2s linear infinite;
+}
+
+.circular{
+    display: block;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 50%;
+    width: 10%;
+    height: 5px;
+    background: transparent;
+    transform-origin: left;
+    animation: animate 2s linear infinite;
+}
+
+.circular:before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #dbdbdb;
+    top: -2px;
+    right: -8px;
+    box-shadow: 0 0 20px #dbdbdb;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animateCircle{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/*LOAD stop*/
