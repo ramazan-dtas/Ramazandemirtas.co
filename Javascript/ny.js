@@ -16,7 +16,18 @@ $('.skill-per').each(function(){
 //Skill bar STOP
 
 //load screen START
+/*
+$(window).load(function() {
+  setInterval(function() {
+    $(".loading").fadeOut("slow")
+  }, 3000);
+});
 $(window).on("load", function(){
   $(".loading").fadeOut("slow");
+});*/
+$(window).on("load", function() {
+  setInterval(function() {
+    $(".loading").fadeOut("slow")
+  }, 1000);
 });
 //load screen STOP
