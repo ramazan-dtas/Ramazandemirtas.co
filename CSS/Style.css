@@ -435,3 +435,52 @@ li{
     }
 }
 /*LOAD stop*/
+
+/*Responsive tablets*/
+@media only screen and (max-width:1024px){
+/*Top START*/
+.container{
+    font-size: 25px;
+    top: 14rem;
+}
+
+.scroll-down{
+    top: 28rem;
+}
+/*Top END*/
+/*Om mig START*/
+.billede img{
+    width: 300px;
+}
+
+.tekst p{
+    font-size: 20px;
+}
+/*Om mig END*/
+
+/*Projekter START*/
+.Mine-Projekter{
+    
+}
+/*Projekter END*/
+
+/*færdigheder START*/
+.Mine-færdigheder{
+    padding-left: 20rem;
+}
+.skill-name{
+    padding-left: -20px;
+}
+.skill-bar{
+    width: 30rem;
+}
+.Mine-færdigheder h1{
+    left: 500px;
+}
+/*færdigheder END*/
+}
+
+/*Responsive mobile*/
+@media only screen and (max-width:500px){
+
+}
