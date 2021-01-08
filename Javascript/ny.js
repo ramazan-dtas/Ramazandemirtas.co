@@ -28,6 +28,6 @@ $(window).on("load", function(){
 $(window).on("load", function() {
   setInterval(function() {
     $(".loading").fadeOut("slow")
-  }, 1000);
+  }, 300);
 });
 //load screen STOP

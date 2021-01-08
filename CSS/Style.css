@@ -107,7 +107,7 @@ section{
     flex: 1;
 }
 
-.Ekstra.item{
+.Ekstra{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,6 +133,7 @@ section{
     padding: 3rem;
     padding-left: 6rem;
     padding-right: 2rem;
+    
 }
 
 .Mine-Projekter h1{
@@ -140,8 +141,12 @@ section{
     text-align: center;
 }
 
+.item{
+    padding-left: 6rem;
+}
+
 .projekter{
-    height: 550px
+    height: 550px;
 }
 
 .csharp{
