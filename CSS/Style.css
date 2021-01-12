@@ -179,12 +179,6 @@ li{
     cursor: pointer;
 }
 
-.box img:hover{
-    background: rgb(184, 91, 91)!important;
-    color: #000!important;
-    transition: 0.5s;
-}
-
 .box{
     position: relative;
     width: calc(350px - 30px);
@@ -202,6 +196,12 @@ li{
     height: 100%;
 }
 
+.box img:hover{
+    /*background: rgb(184, 91, 91)!important;*/
+    background-color:#f70e0e;
+    transition: 0.5s;
+}
+
 .content p{
     color: rgb(255, 255, 255);
 }
@@ -216,9 +216,15 @@ li{
     transform: scaleY(0);
     transition: transform .5s;
 }
+/*
 .lande .Country .box:hover .details{
     transform: scaleY(1);
 }
+/*
+.lande .Country .box:hover{
+    background-color: #262626;
+}*/
+
 .box .details .content{
     position: absolute;
     top: 50%;
@@ -459,8 +465,15 @@ li{
 /*Om mig END*/
 
 /*Projekter START*/
+.box{
+    width: calc(350px - 30px);
+    height: calc(120px - 30px);
+}
+
 .Mine-Projekter{
-    
+    padding: 8rem;
+    padding-left: 6rem;
+    padding-right: 2rem;
 }
 /*Projekter END*/
 
