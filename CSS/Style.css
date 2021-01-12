@@ -194,11 +194,12 @@ li{
 .box img{
     width: 100%;
     height: 100%;
+    background: none;
 }
 
 .box img:hover{
     /*background: rgb(184, 91, 91)!important;*/
-    background-color:#f70e0e;
+    background:#f70e0e;
     transition: 0.5s;
 }
 
