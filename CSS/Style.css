@@ -535,4 +535,18 @@ li{
         flex-direction: column;
     }
     /*Om mig END*/
+
+    /*Projekter START*/
+    .box{
+        width: calc(200px - 30px);
+        height: calc(100px - 30px);
+        text-align: center;
+    }
+    
+    .Mine-Projekter{
+        padding: 8rem;
+        padding-left: 6rem;
+        padding-right: 2rem;
+    }
+    /*Projekter END*/
 }
