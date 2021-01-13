@@ -496,5 +496,43 @@ li{
 
 /*Responsive mobile*/
 @media only screen and (max-width:500px){
+    /*Top START*/
 
+    #particles-js{
+        height: 100%;
+        width: 100%;
+    }
+
+    .container{
+        font-size: 10px;
+        top: 6rem;
+    }
+
+
+    .scroll-down{
+        top: 8rem;
+        height: 50px;
+    }
+    /*Top END*/
+
+    /*Om mig START*/
+    #Om-mig h1{
+        font-size: 20px;
+    }
+
+    .billede img{
+        width: 150px;
+        margin: 1rem ;
+    }
+
+    .tekst p{
+        font-size: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .Portfolio-item{
+        flex-direction: column;
+    }
+    /*Om mig END*/
 }
