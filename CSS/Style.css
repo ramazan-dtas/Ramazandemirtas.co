@@ -563,11 +563,43 @@ li{
     .item{
         padding: -3rem;
     }
-    /*
-    .Mine-Projekter{
-        padding: 8rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }*/
     /*Projekter END*/
+
+    /*Mine færdigheder START*/
+    .Mine-færdigheder{
+        padding-left: 20rem;
+    }
+    
+    .Mine-færdigheder h1{
+        font-size: 20px;
+    }
+
+    .skill-name{
+        padding-left: -20px;
+        font-size: 15px;
+    }
+    
+    .skill-bar{
+        width: 10rem;
+        height: 1rem;
+    }
+    
+    .skill-per{
+        height: 1rem;
+    }
+    /*Mine færdigheder END*/
+
+    /*Social media START*/
+    #social-media img{
+        height: 4rem;
+    }
+
+    #Social-media #social-media{
+        height: 3rem;
+    }
+
+    #social-mediaa img{
+        height: 4rem;
+    }
+    /*Social media END*/
 }
