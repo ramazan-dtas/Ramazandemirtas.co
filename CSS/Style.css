@@ -554,17 +554,20 @@ li{
     .box{
         width: calc(200px - 30px);
         height: calc(100px - 30px);
+        display: block;
+        margin-left: -3rem;
+        margin-right: -2rem;
+    
     }
     
+    .item{
+        padding: -3rem;
+    }
+    /*
     .Mine-Projekter{
         padding: 8rem;
-        padding-left: 6rem;
+        padding-left: 2rem;
         padding-right: 2rem;
-    }
-
-    .item{
-        display: inline-block;
-    }
-
+    }*/
     /*Projekter END*/
 }
