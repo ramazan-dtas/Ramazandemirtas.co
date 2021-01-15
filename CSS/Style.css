@@ -36,7 +36,6 @@ section{
     font-size: 40px;
 }
 
-
 .scroll-down{
     height: 50px;
     width: 30px;
@@ -437,15 +436,15 @@ li{
 /*LOAD stop*/
 
 /*Responsive tablets*/
-@media only screen and (min-width:1024px){
+@media only screen and (max-width:1025px){
 /*Top START*/
 .container{
     font-size: 25px;
-    top: 40rem;
+    top: 30rem;
 }
 
 .scroll-down{
-    top: 80rem;
+    top: 62rem;
 }
 /*Top END*/
 /*Om mig START*/
@@ -533,6 +532,10 @@ li{
     /*Om mig END*/
 
     /*Projekter START*/
+    .Mine-Projekter{
+        padding: 0;
+    }
+
     .Mine-Projekter h1{
         font-size: 20px;
     }
@@ -550,11 +553,12 @@ li{
         display: block;
         margin-left: -3rem;
         margin-right: -2rem;
-    
     }
     
     .item{
-        padding: -3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding: 2rem;
     }
     /*Projekter END*/
 
