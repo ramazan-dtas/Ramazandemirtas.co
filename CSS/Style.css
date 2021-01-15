@@ -444,7 +444,7 @@ li{
 /*LOAD stop*/
 
 /*Responsive tablets*/
-@media only screen and (max-width:1024px){
+@media only screen and (min-width:1024px){
 /*Top START*/
 .container{
     font-size: 25px;
@@ -566,8 +566,10 @@ li{
     /*Projekter END*/
 
     /*Mine færdigheder START*/
-    .Mine-færdigheder{
-        padding-left: 20rem;
+    #Mine-færdigheder{
+        /*padding-left: 20rem;*/
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
     
     .Mine-færdigheder h1{
