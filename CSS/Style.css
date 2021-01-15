@@ -203,8 +203,9 @@ li{
 
 .box img:hover{
     /*background: rgb(184, 91, 91)!important;*/
-    background:#f70e0e;
+    background-color:#f70e0e;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .content p{
@@ -221,14 +222,6 @@ li{
     transform: scaleY(0);
     transition: transform .5s;
 }
-/*
-.lande .Country .box:hover .details{
-    transform: scaleY(1);
-}
-/*
-.lande .Country .box:hover{
-    background-color: #262626;
-}*/
 
 .box .details .content{
     position: absolute;
@@ -448,11 +441,11 @@ li{
 /*Top START*/
 .container{
     font-size: 25px;
-    top: 14rem;
+    top: 40rem;
 }
 
 .scroll-down{
-    top: 28rem;
+    top: 80rem;
 }
 /*Top END*/
 /*Om mig START*/
@@ -492,7 +485,7 @@ li{
 }
 
 .Mine-færdigheder h1{
-    left: 500px;
+    padding-left: 7rem;
 }
 /*færdigheder END*/
 }
@@ -508,12 +501,12 @@ li{
 
     .container{
         font-size: 10px;
-        top: 6rem;
+        top: 13rem;
     }
 
 
     .scroll-down{
-        top: 8rem;
+        top: 26rem;
         height: 50px;
     }
     /*Top END*/
