@@ -533,7 +533,9 @@ li{
 
     /*Projekter START*/
     .Mine-Projekter{
-        padding: 0;
+        padding: 8rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .Mine-Projekter h1{
@@ -555,10 +557,11 @@ li{
         margin-right: -2rem;
     }
     
-    .item{
+    .item{/*
         padding-left: 2rem;
-        padding-right: 2rem;
-        padding: 2rem;
+        padding-right: 2rem;*/
+        padding: 3rem;
+        
     }
     /*Projekter END*/
 
