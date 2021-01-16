@@ -556,13 +556,29 @@ li{
         margin-left: -3rem;
         margin-right: -2rem;
     }
-    
-    .item{/*
+
+    .item{
+        margin: 1.2rem;
+    }
+
+    .projekter{
+        height: 880px;
+    }
+
+    .csharp{
+        height: 400px;
+    }
+
+    .web{
+        height: 600px;
+    }
+    /*
+    .item{
         padding-left: 2rem;
-        padding-right: 2rem;*/
+        padding-right: 2rem;
         padding: 3rem;
         
-    }
+    }*/
     /*Projekter END*/
 
     /*Mine færdigheder START*/
