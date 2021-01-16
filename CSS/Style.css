@@ -444,7 +444,7 @@ li{
 }
 
 .scroll-down{
-    top: 62rem;
+    top: 35rem;
 }
 /*Top END*/
 /*Om mig START*/
@@ -590,7 +590,7 @@ li{
     
     .Mine-færdigheder h1{
         font-size: 20px;
-        text-align: center;
+        padding-right: 4rem;
     }
 
     .skill{
