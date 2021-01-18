@@ -389,9 +389,14 @@ li{
 
 .obj:before{
     content: '';
-    position: absolute;
+    position: absolute;/*
     top: calc(-5rem - 20px);
-    left: 180%;
+    left: 180%;*/
+    top: -50%; /* moved down by 50% of the screen height */
+    transform: translateY(50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
+    width: 100%; /* needs to be defined to keep the default block behavior */
+    text-align: center;
+    margin: 0;
     width: 20%;
     height: 20%;
     border: 3px solid transparent;
@@ -403,9 +408,15 @@ li{
 
 .circular{
     display: block;
-    position: absolute;
+    position: absolute;/*
     top: calc(-4rem - 20px);
-    left: 190%;
+    left: 190%;*/
+
+    top: -40%; /* moved down by 50% of the screen height */
+    transform: translateY(50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
+    width: 100%; /* needs to be defined to keep the default block behavior */
+    left: 60%;
+    margin: 0;
     width: 10%;
     height: 5px;
     background: transparent;
@@ -505,8 +516,8 @@ li{
 }
 
 .obj{
-    top: 30rem;
-    left: 30rem;
+    left: 40%;
+    top: 50%;
 }
 /*loading screen END*/
 
@@ -650,6 +661,11 @@ li{
         height: 100%;
     }
 
+    .obj{
+        top: 50%;
+        left: 20%;
+    }
+/*
     .obj{
         top: 20rem;
         left: 8rem;
