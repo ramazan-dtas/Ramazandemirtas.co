@@ -200,12 +200,6 @@ li{
     background: none;
 }
 
-.box:hover {
-    /*background: rgb(184, 91, 91)!important;
-    background: #ff5858;
-    transition: 0.5s;*/
-}
-
 .content p{
     color: rgb(255, 255, 255);
 }
@@ -370,7 +364,6 @@ li{
     position: absolute;
     top: 10rem;
     left: 4rem;
-    /*transform: translateX(-50%,-50%);*/
     width: 150px;
     height: 150px;
     background: transparent;
@@ -384,14 +377,11 @@ li{
     letter-spacing: 4px;
     text-transform: uppercase;
     text-shadow: 0 0 10px #fff000;
-    /*box-shadow: 0 0 20px rgba(0, 0, 0, .5);*/
 }
 
 .obj:before{
     content: '';
-    position: absolute;/*
-    top: calc(-5rem - 20px);
-    left: 180%;*/
+    position: absolute;
     top: -50%; /* moved down by 50% of the screen height */
     transform: translateY(50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
     width: 100%; /* needs to be defined to keep the default block behavior */
@@ -408,10 +398,7 @@ li{
 
 .circular{
     display: block;
-    position: absolute;/*
-    top: calc(-4rem - 20px);
-    left: 190%;*/
-
+    position: absolute;
     top: -40%; /* moved down by 50% of the screen height */
     transform: translateY(50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
     width: 100%; /* needs to be defined to keep the default block behavior */
@@ -619,10 +606,6 @@ li{
     }
 
     .skill{
-        /*position: absolute;
-        top: 265%;
-        left: 50%;
-        margin: -25px 0 0 -25px;*/
         padding-left: 8rem;
     }
 
@@ -664,11 +647,6 @@ li{
     .obj{
         top: 50%;
         left: 20%;
-    }
-/*
-    .obj{
-        top: 20rem;
-        left: 8rem;
     }
     /*loading screen END*/
 }
